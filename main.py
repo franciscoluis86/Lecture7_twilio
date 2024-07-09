@@ -2,7 +2,7 @@ import base64
 import os
 from twilio.rest import Client
 source_number='+19123016292'
-destination_numbers=['+14386869856','+14388881882','+14388881882']
+destination_numbers=['+14386869856','+14386869856','+14386869856']
 def twilio_pubsub(event, context):
     """Triggered from a message on a Cloud Pub/Sub topic.
     Args:
